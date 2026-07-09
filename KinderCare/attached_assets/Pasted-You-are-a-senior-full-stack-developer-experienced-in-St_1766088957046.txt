@@ -1,0 +1,125 @@
+You are a senior full-stack developer experienced in Streamlit, HTML, and CSS.
+
+I have an existing Streamlit-based healthcare web application called “KinderCare”.
+I want to refactor and redesign it into a professional, light-themed, SaaS-style web app using Streamlit for backend & routing and HTML/CSS for frontend layout and styling.
+
+CORE ARCHITECTURE REQUIREMENTS
+
+Use Streamlit strictly for:
+
+Application entry point
+
+Page routing / navigation
+
+Session state
+
+Backend logic
+
+Use HTML + CSS for ALL UI design:
+
+Top header bar
+
+Navigation bar
+
+Hero section
+
+Card grid
+
+Buttons, typography, spacing
+
+Do NOT use default Streamlit widgets for layout or styling.
+
+Hide Streamlit’s default menu, footer, and header.
+
+Use st.markdown(..., unsafe_allow_html=True) and st.components.v1.html() where needed.
+
+Use wide layout and responsive columns.
+
+MANDATORY FILE STRUCTURE
+app.py                     # main entry point and router
+pages/
+  dashboard.py
+  vaccination_schedule.py
+  vaccination_timeline.py
+  health_timeline.py
+  diseases_remedies.py
+  assistant.py
+assets/
+  styles.css                # global light theme styles
+  images/
+
+UI / DESIGN REQUIREMENTS (LIGHT THEME)
+
+Clean white / off-white background
+
+Soft gradient header bar (blue → purple)
+
+Horizontal navigation bar with rounded pill buttons
+
+Active page highlighted
+
+Minimal, modern SaaS look (no clutter)
+
+Centered hero section:
+
+Title: KinderCare
+
+Subtitle: Your Child’s Health & Vaccination Companion
+
+Grid of colorful gradient cards:
+
+Dashboard
+
+Vaccinations
+
+AI Assistant
+
+Health Timeline
+
+Diseases & Remedies
+
+Settings
+
+Cards must have:
+
+Rounded corners
+
+Soft shadows
+
+Hover effects
+
+Clickable navigation
+
+Use professional fonts (system fonts are fine)
+
+No emojis
+
+No dark mode
+
+No heavy animations
+
+FUNCTIONAL REQUIREMENTS
+
+Navbar buttons must route to their respective pages
+
+Card clicks must navigate to corresponding pages
+
+Login / Sign Up buttons can be UI placeholders
+
+Use Streamlit session state to track active page
+
+Shared navbar and layout across all pages
+
+OUTPUT EXPECTATIONS
+
+Provide fully runnable Streamlit code
+
+Ensure compatibility with Replit
+
+Keep frontend and backend logic cleanly separated
+
+Reuse CSS and layout components
+
+Code must be production-quality and portfolio-ready
+
+Build this as a professional healthcare SaaS-style application, suitable for resume, portfolio, and recruiter evaluation, not a demo or tutorial.

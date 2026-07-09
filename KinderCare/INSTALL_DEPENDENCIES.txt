@@ -1,0 +1,21 @@
+Required Python Libraries
+=========================
+
+To run this application on your PC, install these packages using pip:
+
+pip install streamlit openai plotly python-dateutil pandas audio-recorder-streamlit
+
+Or install them one by one:
+
+pip install streamlit
+pip install openai
+pip install plotly
+pip install python-dateutil
+pip install pandas
+pip install audio-recorder-streamlit
+
+To run the application:
+-----------------------
+streamlit run app.py
+
+Note: Make sure you have Python 3.8 or higher installed on your computer.

@@ -1,0 +1,154 @@
+Build a full-stack Streamlit web application called “Smart Child Vaccination & Health Assistant”.
+
+The application should be user-friendly, medically responsible, and scalable, designed for parents to track and manage their child’s vaccination and health timeline.
+
+1️⃣ Core Technology Stack
+
+Frontend & Backend: Streamlit (Python)
+
+Database: SQLite (local) or PostgreSQL (production-ready)
+
+APIs:
+
+Vaccination guidelines: India (UIP), WHO, CDC
+
+Notifications: Twilio (SMS), SMTP (Email)
+
+AI/NLP:
+
+Chat + Voice Assistant using OpenAI / Whisper / Speech-to-Text
+
+Rule-based + AI-assisted health guidance
+
+2️⃣ Feature: Personalized Vaccination Scheduler
+
+Implement a module that:
+
+Collects:
+
+Child’s name
+
+Date of birth
+
+Country selection (India / WHO / CDC)
+
+Auto-generates a vaccination schedule based on official guidelines.
+
+Detects missed or delayed vaccines and updates schedule dynamically.
+
+Displays:
+
+Upcoming vaccines
+
+Overdue vaccines
+
+Completed vaccines
+
+Allows marking vaccines as “Completed”.
+
+3️⃣ Feature: Health Timeline & History
+
+Create a visual timeline that includes:
+
+Vaccination history
+
+Past illnesses and symptoms
+
+Doctor visits (optional)
+
+Timeline should be:
+
+Chronological
+
+Filterable by category (vaccine / illness / symptom)
+
+4️⃣ Feature: Smart Reminders & Alerts
+
+Implement automated reminders:
+
+SMS reminders before vaccine due dates
+
+Email reminders for upcoming or missed vaccines
+
+In-app notifications using Streamlit alerts
+
+Reminder logic:
+
+7 days before
+
+1 day before
+
+On due date
+
+5️⃣ Feature: Voice & Chat-Based Assistant
+
+Add an AI assistant that:
+
+Supports text and voice input
+
+Understands natural language queries like:
+
+“When is the next vaccine due?”
+
+“My child has a cough, what should I do?”
+
+“Which vaccines are missed?”
+
+Assistant should:
+
+Fetch answers from stored child data
+
+Provide non-diagnostic medical advice
+
+Clearly show disclaimers like:
+“This is not a substitute for professional medical advice.”
+
+6️⃣ UI / UX Requirements
+
+Clean medical-grade UI
+
+Sidebar navigation:
+
+Dashboard
+
+Vaccination Schedule
+
+Health Timeline
+
+Assistant
+
+Settings
+
+Responsive layout
+
+Charts using Plotly / Altair
+
+7️⃣ Security & Ethics
+
+Store data securely
+
+No public exposure of personal data
+
+Explicit medical disclaimers
+
+Opt-in for notifications
+
+8️⃣ Deliverables
+
+Complete Streamlit app
+
+Modular Python code
+
+Database schema
+
+Clear instructions to run locally
+
+Future-ready structure for deployment
+
+The output should be production-quality, well-commented, and easy to extend.
+
+🔹 Pro Tip (Important for Evaluation & Placement)
+
+If this is a college or placement project, add this line at the end:
+
+Design the project so that it demonstrates real-world problem solving, data handling, and AI integration suitable for MNC technical evaluations.

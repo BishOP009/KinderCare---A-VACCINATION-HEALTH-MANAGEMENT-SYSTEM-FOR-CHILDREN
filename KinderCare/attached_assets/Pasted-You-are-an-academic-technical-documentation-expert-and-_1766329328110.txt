@@ -1,0 +1,206 @@
+You are an academic technical documentation expert and software engineering professor.
+
+Your task is to generate a COMPLETE, PRINT-READY FINAL YEAR ENGINEERING PROJECT REPORT in PDF format by deeply analyzing this entire Replit project repository.
+
+IMPORTANT INSTRUCTIONS (DO NOT SKIP ANY):
+
+1. First, recursively read and understand:
+   - Every source code file
+   - Every configuration file
+   - Every database / model / asset / environment file
+   - Folder structure and file dependencies
+   - Frontend flow, backend logic, database usage, APIs, and AI/ML models if any
+
+2. Assume the reader (student) has ZERO prior knowledge of:
+   - Programming
+   - Frameworks
+   - AI / ML
+   - Databases
+   - System architecture
+
+3. The PDF must be written in **simple but professional academic English**, suitable for:
+   - University final year submission
+   - Project viva
+   - Campus placements
+   - Technical interviews
+
+4. DO NOT summarize vaguely.
+   - Every function
+   - Every module
+   - Every algorithm
+   - Every workflow
+   - Every design decision
+   MUST be explained clearly.
+
+5. The output must be a **single, structured PDF document** with proper headings, subheadings, diagrams (ASCII if needed), tables, and explanations.
+
+------------------------------------------------------------------
+STRUCTURE OF THE PDF (FOLLOW EXACTLY):
+------------------------------------------------------------------
+
+1. Cover Page
+   - Project Title
+   - Student Name
+   - University / College Name
+   - Degree & Branch
+   - Academic Year
+   - Guide / Supervisor Name
+
+2. Certificate Page
+   - Formal university-style project completion certificate text
+
+3. Declaration Page
+   - Student declaration of originality
+
+4. Acknowledgement
+
+5. Abstract
+   - Problem
+   - Motivation
+   - Solution
+   - Technologies Used
+   - Outcomes
+
+6. Table of Contents (auto-generated)
+
+7. List of Figures
+8. List of Tables
+9. List of Abbreviations
+
+10. Introduction
+   - Background of the problem
+   - Existing systems and their limitations
+   - Motivation for this project
+   - Objectives of the project
+   - Scope of the project
+   - Real-world relevance
+
+11. Literature Survey
+   - Similar systems
+   - Technologies used in similar projects
+   - Comparison with existing solutions
+   - Gap analysis
+
+12. Problem Statement
+   - Clearly defined problem
+   - Constraints
+   - Assumptions
+
+13. System Requirements
+   - Hardware requirements
+   - Software requirements
+   - Tools and technologies used (with justification)
+
+14. System Architecture
+   - High-level architecture diagram
+   - Detailed component-level explanation
+   - Data flow explanation
+   - Interaction between modules
+
+15. Technology Stack Explanation
+   - Programming languages
+   - Frameworks
+   - Libraries
+   - Databases
+   - APIs
+   - AI/ML models (if any)
+   Explain WHY each was chosen.
+
+16. Detailed Project Workflow
+   - Step-by-step execution flow
+   - User interaction flow
+   - Backend processing flow
+   - Data storage and retrieval flow
+
+17. Module-wise Explanation
+   For EACH module:
+   - Purpose
+   - Inputs
+   - Outputs
+   - Internal logic
+   - Algorithms used
+   - Code walkthrough (line-by-line where required)
+
+18. Database Design
+   - Schema explanation
+   - Tables / collections
+   - Relationships
+   - Constraints
+   - Sample records
+
+19. Algorithms Used
+   - Pseudocode
+   - Explanation
+   - Time complexity
+   - Space complexity
+
+20. Security Considerations
+   - Authentication
+   - Authorization
+   - Data validation
+   - Security risks and mitigation
+
+21. Testing
+   - Unit testing
+   - Integration testing
+   - Test cases (tabular format)
+   - Test results
+
+22. Results and Output Screens
+   - Output explanation
+   - Screens flow explanation
+
+23. Advantages of the System
+24. Limitations of the System
+
+25. Future Enhancements
+   - Scalability
+   - Feature extensions
+   - Production improvements
+
+26. Conclusion
+
+27. References
+   - IEEE format references
+
+28. Appendix A – Complete Source Code
+   - Every file explained
+   - Code snippets with explanation
+
+------------------------------------------------------------------
+VIVA & INTERVIEW PREPARATION SECTION (VERY IMPORTANT):
+------------------------------------------------------------------
+
+29. Viva Voce Questions and Answers
+   - Basic questions
+   - Intermediate questions
+   - Advanced questions
+   - Tricky professor questions
+   - Real-time scenario questions
+   - "Why did you choose this?" questions
+
+30. Interview Questions and Answers
+   - Project architecture questions
+   - Code-level questions
+   - Optimization questions
+   - Scalability questions
+   - Security questions
+   - AI/ML questions (if applicable)
+
+31. Common Mistakes Students Make (and how to avoid them)
+
+32. How to Explain This Project in 5 Minutes, 10 Minutes, and 30 Minutes
+   - Structured speaking scripts
+
+------------------------------------------------------------------
+OUTPUT REQUIREMENTS:
+------------------------------------------------------------------
+
+- Generate the FINAL OUTPUT as a **downloadable PDF**
+- Use professional academic formatting
+- Include tables wherever applicable
+- Do NOT skip any section
+- Do NOT assume anything
+- Explain everything from scratch
+
+Start by analyzing the repository now and then generate the complete PDF.
